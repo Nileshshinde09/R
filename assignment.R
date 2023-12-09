@@ -207,26 +207,42 @@ B=matrix(c(3,4,8),ncol = 1)
   # [2,]    8
   # [3,]   56
 # ii)
-   print(t(A)*B)
+  print(t(A)*B)
   #Error in t(A) * B : non-conformable arrays
   
+   print(t(A)%*%B)
+   # [,1]
+   # [1,]   67
+  
 # iii)
-   print(t(B)*(A*t(A)))
+  print(t(B)*(A*t(A)))
   #Error in A * t(A) : non-conformable arrays
+   
+  print(t(B)%*%(A%*%t(A)))
+  #[,1] [,2] [,3]
+  #[1,]   67  134  469
   
 # iv)
   print((A*t(A))*t(B))
- #Error in A * t(A) : non-conformable arrays
-  
+  #Error in A * t(A) : non-conformable arrays
+   
+  print((A%*%t(A))%*%t(B))
+  #Error in (A %*% t(A)) %*% t(B) : non-conformable arguments
 # v)
   print(((B*t(B))+(A*t(A))-100/3)^-1)
   #Error in B * t(B) : non-conformable arrays
   #Error in A * t(A) : non-conformable arraysError in A * t(A) : non-conformable arrays
   
-# Answer 👉👉 (i) print(A*B)
+  print(solve((B%*%t(B))+(A%*%t(A))-100/3))
+  #[,1]   [,2]   [,3]
+  #[1,]  36.68 -45.32   8.28
+  #[2,] -45.32  55.93 -10.22
+  #[3,]   8.28 -10.22   1.88
+
 
   
 # iii) For
+  
   # Answer 👇👇👇👇
   A=matrix(0,ncol = 4,nrow = 4,byrow = TRUE)
   A[c(1,6,11,16)]=c(2,3,5,-1)
@@ -236,5 +252,11 @@ B=matrix(c(3,4,8),ncol = 1)
   # [2,]    0    3    0    0
   # [3,]    0    0    5    0
   # [4,]    0    0    0   -1
+ 
+  print(solve(A)%*%A-matrix(c(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1),nrow = 4,ncol = 4,byrow = TRUE ))
   
-  
+  #[,1] [,2] [,3] [,4]
+  #[1,]    0    0    0    0
+  #[2,]    0    0    0    0
+  #[3,]    0    0    0    0
+  #[4,]    0    0    0    0
