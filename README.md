@@ -1,6 +1,6 @@
 # R Programming Assignments Repository
 
-![R Programming Logo]([r_logo.png](https://github.com/Nileshshinde09/R/assets/90444068/1721307d-5d08-4cb0-9b7e-84d463c61b70)
+![R Programming Logo](https://github.com/Nileshshinde09/R/assets/90444068/1721307d-5d08-4cb0-9b7e-84d463c61b70)
 Welcome to my R programming repository where I store my college assignment code. This repository contains R scripts and related files for various assignments completed during my college coursework.
 
 ## Table of Contents
