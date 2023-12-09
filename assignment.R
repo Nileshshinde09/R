@@ -1,4 +1,4 @@
-# 1create the following matrix() function with data as (1,3,5,2,4,6) name it A.
+# 1 create the following matrix() function with data as (1,3,5,2,4,6) name it A.
 # Answer 👇👇👇👇
 A <- matrix(c(1,3,5,2,4,6),nrow = 2,ncol = 3,byrow = TRUE)
 print(A)
@@ -8,7 +8,7 @@ print(A)
 #[2,]    2    4    6
 
 
-# 2Using rbind() create the following matrix. Name it B.
+# 2 Using rbind() create the following matrix. Name it B.
 # 1   2   3
 # 4   5   6
 # Answer 👇👇👇👇
