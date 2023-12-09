@@ -8,7 +8,7 @@ Welcome to my R programming repository where I store my college assignment code.
 - [Directory Structure](#directory-structure)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](/LICENSE)
 
 ## Introduction
 
