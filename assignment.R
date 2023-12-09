@@ -242,7 +242,7 @@ B=matrix(c(3,4,8),ncol = 1)
 
   
 # iii) For
-  
+  #Confirm that A^-1.A-I4 provides 4X4 matrix of zeros.
   # Answer 👇👇👇👇
   A=matrix(0,ncol = 4,nrow = 4,byrow = TRUE)
   A[c(1,6,11,16)]=c(2,3,5,-1)
