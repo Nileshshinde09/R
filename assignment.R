@@ -21,12 +21,8 @@ print(B)
 
 # 3 create above matrix using cbind function 
 # Answer 👇👇👇👇
-C <- cbind(c(1,4),c(2,5),c(3,6))
+C <- cbind(1:3,4:6)
 print(C)
-
-#[,1] [,2] [,3]
-#[1,]    1    2    3
-#[2,]    4    5    6
 
 # 4 Find the number of rows and columns of the following matrix , after creating the matrix D.
 
