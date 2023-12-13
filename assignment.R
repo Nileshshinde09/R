@@ -84,7 +84,9 @@ print(X2)
 
 # iii) X3 should be a 3X3 matrix which contains only the diagonal elements of the above matrix.The rest of the elements should be 1
 # Answer 👇👇👇👇
-X3 <- matrix(c(diag(temp)[1],1,1,1,diag(temp)[2],1,1,1,diag(temp)[3]),nrow = 3,ncol = 3)
+
+X3 <- matrix(1,nrow = 3,ncol = 3)
+diag(X3)= diag(temp)
 print(X3)
 print(dim(X3))
 # [,1] [,2] [,3]
