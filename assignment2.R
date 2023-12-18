@@ -94,3 +94,23 @@ condition_dii <- (baz / foo)[(baz / foo) > 4 | (baz / foo) <= 2]
 
 
 #e. Confirming using the long version in all preceding exercises performs only the first comparison (results match the first entries of previously obtained vectors).
+
+#For Part 1:
+
+# Confirming individual comparisons
+long_version_comparison_1 <- equal_to_6
+long_version_comparison_2 <- greater_than_equal_to_6
+long_version_comparison_3 <- less_than_6_plus_2
+long_version_comparison_4 <- not_equal_to_6
+
+#For Part 2:
+
+# Confirming individual comparisons
+long_version_comparison_a <- elements_condition_a
+long_version_comparison_b <- elements_condition_b
+long_version_comparison_c <- common_elements
+long_version_comparison_di <- condition_di
+long_version_comparison_dii <- condition_dii
+
+
+#You can compare these long version results with the corresponding results obtained in the previous exercises to confirm if they match the first entries.
