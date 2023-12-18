@@ -1,6 +1,6 @@
-PART 1
+#PART 1
 
-a. 
+#a. 
 
 # Creating vector
 vector_a <- c(6, 9, 7, 3, 6, 7, 9, 6, 3, 6, 6, 7, 1, 9, 1)
@@ -18,7 +18,7 @@ less_than_6_plus_2 <- vector_a[vector_a < 6 + 2]
 not_equal_to_6 <- vector_a[vector_a != 6]
 
 
-b.
+#b.
 
 # Deleting first three elements
 vector_b <- vector_a[-(1:3)]
@@ -34,7 +34,7 @@ array_b <- array_b + 2
 condition_ii <- array_b[array_b <= 6 / 2 + 4]
 
 
-c.
+#c.
 
 # Creating 10 x 10 identity matrix / 10
 matrix_c <- diag(10) / 10
@@ -43,7 +43,7 @@ matrix_c <- diag(10) / 10
 zero_locations <- which(matrix_c == 0, arr.ind = TRUE)
 
 
-d.
+#d.
 
 # Checking TRUE values in array_b
 logical_values <- array_b <= 6 / 2 + 4
@@ -55,9 +55,9 @@ diagonal_elements <- matrix_c[cbind(1:10, 1:10)]
 no_true_entries <- any(diagonal_elements)
 
 
-PART 2
+#PART 2
 
-a.
+#a.
 
 # Storing vector
 foo <- c(7, 1, 7, 10, 5, 9, 10, 3, 10, 8)
@@ -66,7 +66,7 @@ foo <- c(7, 1, 7, 10, 5, 9, 10, 3, 10, 8)
 elements_condition_a <- foo[foo > 5 | foo == 2]
 
 
-b.
+#b.
 
 # Storing vector
 bar <- c(8, 8, 4, 4, 5, 1, 5, 6, 6, 8)
@@ -75,13 +75,13 @@ bar <- c(8, 8, 4, 4, 5, 1, 5, 6, 6, 8)
 elements_condition_b <- bar[bar <= 6 & bar != 4]
 
 
-c.
+#c.
 
 # Identifying elements satisfying conditions in foo and bar
 common_elements <- intersect(elements_condition_a, elements_condition_b)
 
 
-d.
+#d.
 
 # Storing third vector
 baz <- foo + bar
@@ -93,4 +93,4 @@ condition_di <- baz[baz >= 14 & baz != 15]
 condition_dii <- (baz / foo)[(baz / foo) > 4 | (baz / foo) <= 2]
 
 
-e. Confirming using the long version in all preceding exercises performs only the first comparison (results match the first entries of previously obtained vectors).
+#e. Confirming using the long version in all preceding exercises performs only the first comparison (results match the first entries of previously obtained vectors).
