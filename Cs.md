@@ -1,6 +1,6 @@
 
 ## Cybersecurity FAQ
-##2 marks
+## 2 marks
 1. **Advantages of Cybersecurity:**
    - Protection against unauthorized access, data breaches, and cyber threats.
    - Ensuring confidentiality, integrity, and availability of information.
@@ -45,7 +45,7 @@
     - Malicious software causing harm to computer systems.
     - Viruses attach to executable files, while worms replicate and spread independently.
 
-##5 marks
+## 5 marks
 ## Computer and Web Technology:
 
 1. **Computer Technology:**
